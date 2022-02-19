@@ -1,0 +1,20 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bored-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
