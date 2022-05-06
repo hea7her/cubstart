@@ -5,38 +5,55 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Playground</title>
+  <title>Can You Tell?</title>
   <link rel="stylesheet" href="styles/index.css" />
   <link rel="stylesheet" href="styles/playground.css" />
 </head>
 
 <body>
   <div id="navbar">
-    <a href="index.html">Home</a>
-    <a href="playground.html">Playground</a>
-    <a href="bored.html">Bored Button</a>
+    <a href="index.html">LENS</a>
+    <a href="playground.html">Can You Tell?</a>
+    <a href="bored.html">Resources</a>
   </div>
-  <section class="trinkets">
-    <div id="counter">
-      <!-- BEGIN PART 1 -->
-      <h1 id="count-display">0</h1>
-      <button class="button" id="subtract">-</button>
-      <button class="button" id="add">+</button>
-      <!-- END PART 1 -->
+  <section id="about">
+  <div class="description">
+    <div class = "title">
+      <h1>Do you have the skills to tell whether or not it's fake?</h1>
     </div>
-    <div id="todo-list">
-      <h3>Todo List</h3>
-      <!-- BEGIN PART 4 -->
-      <input type="text" id="task-name" />
-      <div id="input-handlers">
-        <button class="button" id="submit">Submit</button>
-        <button class="button" id="clear">Clear</button>
-      </div>
-      <ul id="tasks"></ul>
-      <!-- END PART 4 -->
-    </div>
-  </section>
-</body>
-<script src="scripts/playground.js"></script>
+      <p>
+        Below, we'll have an example of a viral news article when it was released.
+        <br> 
+        Using your knowledge of the news source, bias, and outside research, can you tell whether or not this news is fake or not?
+        <br>
+        <br>
+      </p>
+    <div class = "titleFox">
+    <h4>FOX NEWS: US Bacon Reserves Hit 50 Year Low!</h4>
+  </div>
+  <img class = "resize" src = "bacon.png" alt="Fox News">
+  <p>
+    It looks like the Instagram algorithm fed this post to you. Do you think it's real or fake?
+  </p>
+    <div id="newpost"  class="hidden">
+      <h4>This is Fake News!</h4>
+      <p>
+        How can we tell?
+        <br> 
+        Learn more on our next page: <a href = "http://127.0.0.1:5500/bored.html">Resources</a> 
+        <br>
+        <br>
+      </p>
 
+    </div>
+    <button class="button" id="real-button" onclick = "showhide()">Reveal Answer</button>
+</section>
+<script src="scripts/playground.js"></script>
+</div>
+ 
+
+  
+
+</body>
 </html>
+

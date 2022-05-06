@@ -1,6 +1,9 @@
 const boredButton = document.getElementById("bored-button");
 const card = document.getElementById("card");
 
+
+
+
 // BEGIN PART 7
 
 async function fetchActivity() {

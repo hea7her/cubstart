@@ -10,6 +10,8 @@
   cursor: pointer;
   display: flex;
   justify-content: space-around;
+  transition: transform 0.2s ease-in-out;
+
 
 }
 

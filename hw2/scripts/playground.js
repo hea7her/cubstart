@@ -1,3 +1,9 @@
+function showhide() {
+  var div = document.getElementById("newpost");
+  div.classList.toggle('hidden'); 
+}
+
+/*
 // BEGIN PART 2
 const countDisplay = document.getElementById("count-display");
 const subtractButton = document.getElementById("subtract");
@@ -49,3 +55,4 @@ taskName.addEventListener("input", () => {
     countDisplay.style.color = "steelblue";
   }
 });
+*/

@@ -2,3 +2,46 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: space-evenly;
+  background:rgb(200, 232, 253);
+
+}
+
+.title {
+  color:rgb(177, 122, 245);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titleFox {
+  color:rgb(11, 39, 132);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bored-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;}
+
+.hidden{
+  display : none;
+  color:rgb(11, 39, 132);
+  }
+
