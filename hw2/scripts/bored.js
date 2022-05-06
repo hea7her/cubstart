@@ -1,4 +1,10 @@
-const boredButton = document.getElementById("bored-button");
+//source: https://stackoverflow.com/questions/47655563/hide-and-show-text-by-click-on-div
+function showhide() {
+  var div = document.getElementById("newpost");
+  div.classList.toggle('hidden'); 
+}
+
+/*const boredButton = document.getElementById("bored-button");
 const card = document.getElementById("card");
 
 
@@ -31,3 +37,4 @@ boredButton.addEventListener("click", async () => {
   }
   // END PART 8
 });
+*/

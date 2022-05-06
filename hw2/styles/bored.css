@@ -20,3 +20,8 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+mark {
+  background-color:rgb(245, 220, 255);
+  color:black;
+}
